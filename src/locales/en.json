@@ -1,0 +1,479 @@
+{
+	"_name": "English",
+	"layout": {
+		"header-aside": {
+			"header-fullscreen": {
+				"active": "full screen",
+				"exit": "Exit full screen"
+			},
+			"header-log": {
+				"empty": "No logs or exceptions",
+				"error-length": "Contains {length} exceptions",
+				"log-length": "{length} logs"
+			},
+			"header-size": {
+				"options": {
+					"default": "Default",
+					"medium": "in",
+					"mini": "Minimum",
+					"small": "Small"
+				}
+			},
+			"header-theme": {
+				"dialog": {
+					"title": "Theme"
+				},
+				"list": {
+					"button": {
+						"is-active": "Activated",
+						"select": "Select"
+					},
+					"column": {
+						"label": {
+							"preview": "Preview"
+						}
+					}
+				},
+				"tooltip": {
+					"content": "Theme"
+				}
+			},
+			"header-user": {
+				"hello": "Hello there",
+				"log-off": "Logout"
+			},
+			"menu-item": {
+				"label-default": "Unnamed menu"
+			},
+			"menu-side": {
+				"empty": "No sidebar menu"
+			},
+			"message": {
+				"warning": {
+					"temporary-menu": "Temporary menu"
+				}
+			},
+			"panel-search": {
+				"autocomplete-placeholder": "Search page",
+				"tip": "You can wake up the search panel with the shortcut {open} and press {close} to close"
+			},
+			"tabs": {
+				"close-all": "Close all",
+				"close-left": "Close left",
+				"close-other": "Close other",
+				"close-right": "Close right",
+				"label-default": "unnamed"
+			}
+		},
+		"sidebar": {
+			"portal": {
+				"title": "my",
+				"workbench": "workbench",
+				"calendar": "calendar",
+				"task": "task",
+				"workflows": "workflows",
+				"messages": "messages",
+				"worknotes": "worknotes",
+				"my_projects": "my projects",
+				"scrumboard": "scrumboard",
+				"work_paper": "work paper",
+				"domain_choose": "my PM.DO domain"
+			},
+			"project": {
+				"title": "project manage",
+				"proj_group_workbench": "project workbench",
+				"proj_center_design": "project center",
+				"proj_watch": {
+					"title": "project watch",
+					"plan_progress": "plan progress",
+					"income_expenses_analyze": "income expenses analyze",
+					"group_status": "group status"
+				},
+				"proj_start": {
+					"title": "project start",
+					"proj_charter": "project charter"
+				},
+				"proj_plan": {
+					"title": "project plan",
+					"proj_schedule": "project schedule",
+					"crew_plan": "crew plan",
+					"cost_budget": "cost budget"
+				},
+				"proj_executive": {
+					"title": "project executive",
+					"task_track": "task track",
+					"proj_meeting": "project meeting",
+					"week_paper": "week paper",
+					"matters_register": "matters register"
+				},
+				"proj_end": {
+					"title": "project end",
+					"proj_replay": "project replay"
+				},
+				"proj_km_center": "project document center"
+			},
+			"business": {
+				"title": "business center",
+				"business_workbench": "business workbench",
+				"crm": {
+					"title": "client manage",
+					"client": "client",
+					"contacts": "contacts",
+					"opportunity": "opportunity",
+					"services": "client services"
+				},
+				"contract_manage": {
+					"title": "contract manage",
+					"contract_ledger": "contract ledger",
+					"receipt_plan": "receipt plan",
+					"invoice_apply": "invoice apply",
+					"bill_register": "bill register",
+					"account_record": "account record",
+					"income_register": "income register",
+					"contract_borrow": "contract borrow"
+				},
+				"subcontract_procument": {
+					"title": "subcontract procument",
+					"provider": "provider",
+					"procument_demand": "procument demand",
+					"tender_info": "tender info",
+					"procument_contract": "procument contract",
+					"pay_plan": "pay plan",
+					"pay_apply": "pay apply",
+					"pay_record": "pay record",
+					"performance_evaluation": "performance evaluation"
+				},
+				"km": {
+					"km_center": "knowledge document"
+				}
+			},
+			"more": {
+				"title": "more",
+				"domain_manage": "PM.DO domian manage",
+				"proj_structures": "project structures",
+				"organization": {
+					"title": "organization",
+					"users": "users manage",
+					"org_structures": "organization structures",
+					"roles": "roles root",
+					"functions": "functions manage",
+					"parameters": "parameters setting"
+				},
+				"system_template": {
+					"title": "system template",
+					"plan_template_setting": "plan template",
+					"cost_manage": "cost manage"
+				}
+			} 
+		},
+		"tabs": {
+			"close": {
+				"left": "close left",
+				"right": "close right",
+				"other": "close other",
+				"all": "close all"
+			},
+			"undefined": "undefined",
+			"error": "invalid operate"
+		}
+	},
+	"public": {
+		"confirm": {
+			"special": {
+				"logout": {
+					"button": {
+						"cancel": "Give up",
+						"confirm": "Confirm logout"
+					},
+					"message": "Can I log out of my current account? The open tabs and user settings will be saved.",
+					"title": "Confirmation operation"
+				}
+			}
+		},
+		"message": {
+			"error": {
+				"form": {
+					"invalid": "Form verification failed, please check"
+				},
+				"handle": {
+					"invalid": "Invalid operation"
+				}
+			},
+			"special": {
+				"logout": {
+					"cancel": "Abandon logout user"
+				}
+			}
+		},
+		"notify": {
+			"special": {
+				"component-size": {
+					"changed": {
+						"message": "Global component size has changed",
+						"title": "prompt"
+					}
+				},
+				"show-log": {
+					"message": "The full log content has been printed to the console",
+					"title": "log details"
+				},
+				"upload": {
+					"error": {
+						"message": "Data upload failed",
+						"title": "Upload failed"
+					},
+					"start": {
+						"message": "Uploading data, please wait",
+						"title": "Start upload"
+					},
+					"success": {
+						"message": "Successful data upload",
+						"title": "Successful upload"
+					}
+				}
+			}
+		},
+		"rules": {
+			"required": "{name} is required"
+		}
+	},
+	"views": {
+		"system": {
+			"error": {
+				"404": {
+					"back": "Back to home"
+				}
+			},
+			"index": {
+				"cover": {
+					"build-time": "Build time",
+					"github-fork-alt": "Fork me on GitHub",
+					"sub-title": "Elegant mid-background integration solution",
+					"title": "D2 Admin"
+				},
+				"help": {
+					"button": "need any help",
+					"dialog": {
+						"join": {
+							"qq": {
+								"sub-title": "Join 2,000 users and communicate with each other",
+								"title": "Please use your mobile phone QQ to scan the QR code above"
+							},
+							"we": {
+								"sub-title": "addition author WeChat friends, invite to join WeChat group",
+								"title": "Please use the mobile phone WeChat scan above the QR code"
+							}
+						},
+						"link": {
+							"text": {
+								"doc": "Document",
+								"issues": "Historical question",
+								"new-issue": "Ask a question on Github"
+							}
+						},
+						"sub-title": {
+							"doc": "Here are some references",
+							"join": "Ask other users or authors"
+						},
+						"title": "Help"
+					}
+				},
+				"page": {
+					"link": {
+						"href": {
+							"doc": "https://doc.d2admin.fairyever.com/"
+						},
+						"text": {
+							"d2-projects": "Open source organization",
+							"daily": "Daily",
+							"doc": "Document",
+							"ice": "Flying ice",
+							"juejin": "Nuggets",
+							"start-kit": "Starter version"
+						}
+					},
+					"we": {
+						"button": "WeChat Public",
+						"introduce": "Official public number, mainly push front-end technical articles, framework resources, learning tutorials, and D2 series project update information",
+						"title": "JS Daily"
+					}
+				}
+			},
+			"log": {
+				"table": {
+					"empty-text": "No log information yet",
+					"label": {
+						"component": "Trigger component",
+						"message": "Information",
+						"more": "check the detail information",
+						"time": "time",
+						"url": "Trigger page"
+					}
+				},
+				"upload": {
+					"button": "Upload {number} data"
+				}
+			},
+			"login": {
+				"footer": {
+					"button": {
+						"clause": "Terms",
+						"help": "Help",
+						"privacy": "Privacy"
+					},
+					"copyright": {
+						"author": "FairyEver",
+						"content": "2018 D2 Projects Open Source Organization",
+						"copyright": "copyright"
+					}
+				},
+				"form": {
+					"button": {
+						"login": "Log In"
+					},
+					"label": {
+						"code": "Verification code",
+						"password": "Password",
+						"username": "Username"
+					},
+					"placeholder": {
+						"code": "Verification code",
+						"password": "Password",
+						"username": "Username"
+					}
+				},
+				"motto": {
+					"text": "Time is the most precious treasure of all wealth."
+				},
+				"options": {
+					"forget-password": "Forget password",
+					"register": "Registered user"
+				},
+				"quick-login": {
+					"dialog": {
+						"title": "Quickly select users"
+					},
+					"toggle-button": {
+						"text": "Quickly select users (test function)"
+					}
+				}
+			}
+		},
+		"pmdo": {
+			"common-btns": {
+				"detail": "detail",
+				"new": "new",
+				"edit": "edit",
+				"delete": "delete",
+				"upload-doc": "upload document",
+				"help-tooltip": "help",
+				"move-to": "move to…",
+				"download-to": "download to…",
+				"new-search-condition": "new search condition",
+				"save-normal-search": "save normal search",
+				"search": "search",
+				"preview": "preview",
+				"download": "download",
+				"comfirm": "comfirm",
+				"cancel": "cancel",
+				"publish": "publish",
+				"comment": "comment",
+				"reply": "reply",
+				"rename": "rename",
+				"recycle-bin": "recycle bin"
+			},
+			"tree-filter-placeholder": "enter keyword for filtering",
+			"search-placeholder": "enter keyword for searching",
+			"select-placeholder": "please select",
+			"date-range-placeholder": "date range",
+			"search-collaspe": "high search",
+			"search-equal": "equal",
+			"search-unequal": "unequal",
+			"normal-search-title": "normal search",
+			"date": {
+				"start-date": "start date",
+				"end-date": "end date",
+				"to": "to"
+			},
+			"tabs": {
+				"basic-info": "basic info",
+				"doc-version": "document version",
+				"comment": "comment",
+				"activity": "activity"
+			},
+			"form-label": {
+				"create-person": "create person",
+				"create-time": "create time",
+				"remark": "remark",
+				"please-enter-name": "please enter name"
+			},
+			"delete-info": "This operation will be permanently deleted. Do you want to continue?",
+			"delete-hint": "hint",
+			"delete-success": "deleted successfully！",
+			"delete-cancel": "Cancelled delete",
+			"portal": {
+				"scrumboard": {
+					"second-side-title": "scrumboard manager",
+					"tag": "tags",
+					"add-scrumboard-btn": "addition scrumboard",
+					"add-tag-btn": "addition tags",
+					"recycle-bin": "recycle bin",
+					"new-task-group": "new task group",
+					"add-task-btn": "addition task",
+					"add-board-placeholder": "please enter board name",
+					"add-tag-placeholder": "please tag board name",
+					"add-task-placeholder": "please task board name",
+					"unnamed": "unnamed",
+					"subtask": "subtask",
+					"accessory": "accessory",
+					"comment": "comment",
+					"date": "expiration date",
+					"progress": "progress",
+					"task_detail_dialog": {
+						"title": "task detail",
+						"copy-task-btn": "copy task",
+						"progress": "progress",
+						"principal": "principal",
+						"expiration-time": "expiraton time",
+						"priority": "priority",
+						"important": "important",
+						"precedence": "precedence",
+						"convention": "convention",
+						"plan-start": "plan start",
+						"participant": "participant",
+						"tags": "tags",
+						"execute-business": "execute business",
+						"start": "start",
+						"subtask": "subtask",
+						"add-subtask-btn": "addition subtask",
+						"add-subtask-placeholder": "please enter subtask name",
+						"accessory": "accessory"
+					}
+				}
+			},
+			"project": {
+				"proj_km_center": {
+					"second-side-title": "documentation",
+					"new-global-folder-btn": "new global folder",
+					"new-private-folder-btn": "new private folder",
+					"proj_km_center_detail_dialog": {
+						"title": "knowledge document detail",
+						"placeholder": "please enter knowledge document title",
+						"doc-suffix-label": "document suffix",
+						"doc-size-label": "document size",
+						"explain": "addition to view and manage various supporting document attachments or materials related to the task.",
+						"new-version-btn": "new version"
+					},
+					"new_edit_tree_dialog": {
+						"edit-title": "edit node",
+						"new-globall-title": "new global folder",
+						"new-private-title": "new private folder",
+						"parent-node-label": "parent node",
+						"name-label": "name",
+						"node-key": "node key"
+					}
+				}
+			}
+		}
+	}
+}
